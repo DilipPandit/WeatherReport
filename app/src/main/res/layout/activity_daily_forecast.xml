@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ColorVeryLightGary"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@color/ColorPrimary"
+        android:orientation="horizontal">
+
+        <com.weatherdemo.customviews.WeatherReportEditText
+            android:id="@+id/edtSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/search_image_hieght_width"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:textColorHint="@color/ColorWhite"
+            android:hint="@string/weather_in_your_city"
+            android:layout_weight="1"
+            android:background="@drawable/background_white_left_curve"
+            android:paddingTop="5dp"
+            android:textColor="@color/ColorWhite"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp" />
+
+        <ImageView
+            android:id="@+id/ivSearch"
+            android:layout_width="@dimen/search_image_hieght_width"
+            android:layout_height="@dimen/search_image_hieght_width"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@android:drawable/ic_menu_search"
+            android:background="@drawable/background_orange_right_curve"
+            />
+
+    </LinearLayout>
+
+    <include layout="@layout/item_daily_forecast_layout"/>
+
+
+</LinearLayout>

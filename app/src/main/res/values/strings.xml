@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Weather Report</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activities">activities</string>
+    <string name="title_activity_weather">WeatherActivity</string>
+    <!-- Forecast Activity-->
+
+    <string name="weather_in_your_city">Weather in your city</string>
+    <string name="geo_coords">Geo Coords</string>
+    <string name="search">Search</string>
+    <string name="intenet_not_available">No internet connection</string>
+    <string name="enter_city_name">Please enter city name</string>
+    <string name="title_activity_next_days_weather">NextDaysWeatherActivity</string>
+    <string name="more_details"> More Datils>>> </string>
+    <string name="please_wait">Please wait...</string>
+    <string name="device_not_supported">Play services not supported by device</string>
+    <string name="next_forecast">Next 14 days weather forecast of </string>
+    <string name="next_forecast_new">Next 14 days weather forecast </string>
+    <string name="city"> city</string>
+    <string name="ok">OK</string>
+    <string name="gps_off">GPS is OFF, please make sure GPS is ON for getting current city Weather</string>
+    <string name="unable_to_find_city">Unable to find your current location, try searching it.</string>
+    <string name="onFailled">onConnectionFailed() called with connectionResult = </string>
+    <string name="onerror">onErrorResponse() called with error =</string>
+    <string name="onResponse"> onResponse() called with response =</string>
+    <string name="no_records">No weather data found for this city</string>
+    <string name="success_code">200</string>
+
+</resources>
